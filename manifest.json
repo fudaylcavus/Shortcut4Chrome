@@ -1,0 +1,28 @@
+{
+  "name": "Detroid",
+  "version": "1.6",
+  "description": "Make your own FC",
+  "permissions": ["tabs", "webNavigation", "activeTab", "declarativeContent", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/*"],
+      "js": ["google.js"]
+
+    },
+    {
+      "matches":["*://eokulyd.meb.gov.tr/*"],
+      "js": ["eokul.js"]
+      
+    }
+  ],
+  // "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+
+}
