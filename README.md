@@ -1,6 +1,6 @@
 # Shortcut4Chrome
 
-It allows me to search fast and login to our school system without repeat typing my credentials over and over.
+It allows me to search fast and login to our school system without typing my credentials over and over.
 
 -Supports login to E-Okul
 
